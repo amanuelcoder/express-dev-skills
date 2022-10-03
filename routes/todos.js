@@ -10,5 +10,8 @@ router.get('/', todosCtrl.index);
 router.get('/new', todosCtrl.new);
 // GET /todos/:id
 router.get('/:id', todosCtrl.show);
+// POST /todos
+router.post('/', todosCtrl.create);
+
 
 module.exports = router;
