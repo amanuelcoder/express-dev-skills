@@ -12,6 +12,8 @@ router.get('/new', todosCtrl.new);
 router.get('/:id', todosCtrl.show);
 // POST /todos
 router.post('/', todosCtrl.create);
+// DELETE /todos/:id
+router.delete('/:tuna', todosCtrl.delete);
 
 
 module.exports = router;
