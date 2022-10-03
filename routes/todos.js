@@ -6,6 +6,8 @@ var todosCtrl = require('../controllers/todos');
 
 // GET /todos
 router.get('/', todosCtrl.index);
+// GET /todos/new <- Define BEFORE show route
+router.get('/new', todosCtrl.new);
 // GET /todos/:id
 router.get('/:id', todosCtrl.show);
 
