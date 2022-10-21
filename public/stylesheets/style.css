@@ -1,10 +1,12 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Kalam', cursive;
+  background-image: url(https://i.imgur.com/88J6HIY.jpg);
+
 }
 
 a {
-  color: #00B7FF;
+  color:rgba(166, 166, 166, 0.928);
 }
 
 .delete-form {
@@ -13,9 +15,26 @@ a {
 }
 	
 .delete-form button {
-  color: red;
+  color: rgb(14, 8, 76);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
 }
 	
 li {
   list-style: none;
+}
+
+h1 {
+  color:rgba(166, 166, 166, 0.928);
+}
+
+button {
+  color:rgba(166, 166, 166, 0.928);
+  background: transparent;
+  
+}
+
+input {
+  background-color:rgba(166, 166, 166, 0.928);
 }
